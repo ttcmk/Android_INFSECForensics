@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:orientation="vertical"    
+    android:layout_width="fill_parent"    
+    android:layout_height="fill_parent"    
+    android:id="@+id/widget0"    
+    >    
+        
+<Button    
+    android:layout_width="wrap_content"    
+    android:layout_height="wrap_content"    
+    android:id="@+id/button_search"    
+    android:layout_x="380px"    
+    android:layout_y="5px"    
+    android:text="@string/toSearch"    
+/>    
+
+<TextView
+    android:id="@+id/TextView_showIn"
+    android:layout_width="124dp"
+    android:layout_height="wrap_content"
+    android:layout_x="5px"
+    android:layout_y="16px"
+    android:text="@string/showInput"
+    android:textSize="20sp" />
+    
+<TextView    
+    android:layout_width="fill_parent"    
+    android:layout_height="370px"    
+    android:id="@+id/TextView_Result"    
+    android:layout_x="0px"    
+    android:layout_y="60px"    
+/>
+
+<EditText
+    android:id="@+id/key"
+    android:layout_width="147dp"
+    android:layout_height="52px"
+    android:layout_x="107dp"
+    android:layout_y="8dp"
+    android:ems="10"
+    android:textSize="18sp" >
+
+    <requestFocus />
+</EditText>
+
+<ListView
+    android:id="@+id/listView1"
+    android:layout_width="match_parent"
+    android:layout_height="392dp"
+    android:layout_x="0dp"
+    android:layout_y="67dp" >
+</ListView>
+    
+</AbsoluteLayout> 
